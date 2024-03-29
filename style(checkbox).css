@@ -1,0 +1,21 @@
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+input[type="checkbox"]{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+}
+
+input[type="checkbox"]:checked{
+    background-color: black;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTUiIHZpZXdCb3g9IjAgMCAxOCAxNSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTUuMzk2ODggMTEuNTk0TDUuNzUwMjcgMTEuOTQ2NUw2LjEwMzM5IDExLjU5MzdMMTYuMzM5OCAxLjM2Njk0TDE3LjA0MjkgMi4wN0w1Ljc1IDEzLjM2MjlMMC45NTcxMDcgOC41N0wxLjY2MDQzIDcuODY2NjdMNS4zOTY4OCAxMS41OTRaIiBmaWxsPSJibGFjayIgc3Ryb2tlPSJ3aGl0ZSIvPgo8L3N2Zz4K")
+}
